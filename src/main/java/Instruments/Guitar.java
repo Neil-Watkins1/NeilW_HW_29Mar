@@ -29,4 +29,13 @@ public class Guitar extends Instruments{
     public void setStrings(int strings) {
         this.strings = strings;
     }
+
+    public String play() {
+        return "Lovely guitar like noises fill the shop.";
+    }
+
+    public double sell() {
+       return this.getRetailPrice() - this.getCostPrice();
+
+    }
 }

@@ -5,7 +5,7 @@ package Instruments;
 
 import java.util.Locale;
 
-public abstract class Instruments {
+public abstract class Instruments implements IPlay, ISell{
 
     private InstrumentTypes instrumentTypes;
     private String make;

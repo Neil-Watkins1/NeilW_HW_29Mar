@@ -97,4 +97,14 @@ public class GuitarTest {
         guitar.setStrings(7);
         assertEquals(7, guitar.getStrings());
     }
+
+    @Test
+    public void canPlay() {
+        assertEquals("Lovely guitar like noises fill the shop.", guitar.play());
+    }
+    @Test
+    public void canSell(){
+        assertEquals(500.00, guitar.sell(), 0.001);
+    }
+
 }
