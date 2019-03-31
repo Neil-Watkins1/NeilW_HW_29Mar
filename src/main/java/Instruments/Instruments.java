@@ -1,8 +1,5 @@
 package Instruments;
 
-
-
-
 import java.util.Locale;
 
 public abstract class Instruments implements IPlay, ISell{
@@ -12,8 +9,6 @@ public abstract class Instruments implements IPlay, ISell{
     private String model;
     private double costPrice;
     private double retailPrice;
-
-
 
     public Instruments(InstrumentTypes instrumentTypes, String make, String model, double costPrice, double retailPrice){
         this.instrumentTypes = instrumentTypes;

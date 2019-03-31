@@ -36,6 +36,5 @@ public class Guitar extends Instruments{
 
     public double sell() {
        return this.getRetailPrice() - this.getCostPrice();
-
     }
 }
